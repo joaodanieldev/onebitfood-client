@@ -38,3 +38,9 @@ body{
 
 @media(max-width: 1025){ .container {width: 95% !important}}
 
+.clickable_effect:hover{
+  opacity: 0.8;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
