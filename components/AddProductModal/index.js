@@ -1,8 +1,8 @@
-import { useState } from 'react';
 import { Modal, Row, Col, Form, Button } from 'react-bootstrap';
 import Image from 'next/image'
 import toCurrency from '../../services/toCurrency';
 import truncateString from '../../services/truncateString';
+import { useState } from 'react';
 import { useRecoilState } from 'recoil';
 import cartState from '../../store/atoms/cartAtom';
 
