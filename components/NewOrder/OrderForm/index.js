@@ -32,7 +32,7 @@ export default function OrderForm() {
 
     try {
       await createOrder(order);
-      router.push('/orders/sucess');
+      router.push('/orders/success');
     } catch (error) {
       setError(true);
 
